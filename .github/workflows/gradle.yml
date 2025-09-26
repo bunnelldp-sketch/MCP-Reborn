@@ -18,3 +18,5 @@ jobs:
       run: chmod +x gradlew && ./gradlew setup
     - name: Build with Gradle
       run: chmod +x gradlew && ./gradlew build
+    - name: Echo Done
+      run: echo Done
